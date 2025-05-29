@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "JourneyOfTheRobed";
+  src: url("./assets/fonts/Game Font.ttf");
+}
+
+@font-face {
+  font-family: "JourneyOfTheRobedBigBold";
+  src: url("./assets/fonts/Big Font Bold.ttf");
+}
+
+html, body {
+  background-color: #444444;
+  font-family: JourneyOfTheRobed, serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.Project {
+  width: 45rem;
+  height: 30rem;
+  outline: solid;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: #333333;
+  overflow: hidden;
+  outline-color: #222222;
+  outline-width: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Project img {
+  max-width: 50%;
+}
+
+.Project .ContentBox {
+  width: 100vw;
+}
+
+.Project .VR {
+  border-left: 5px solid #222222;
+  height: 100vh;
+}
+
+.Project .ContentBox h1 {
+  font-size: 2rem;
+}
+
+.Project .ContentBox .DescriptionBox {
+  height: 60%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Project hr {
+  height: 5px;
+  background-color: #222222;
+  border-width: 0;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  width: auto;
+  padding: 3vw;
+  overflow: hidden;
+}
+
+.NavBar .ContentBox {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+.NavBar hr {
+  margin: 0;
+}
+
+h1 {
+  font-family: JourneyOfTheRobedBigBold, serif;
+  line-height: normal;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+
+}
+
+.NavBarHeader {
+  font-size: 2rem;
+  font-family: JourneyOfTheRobedBigBold, serif;
+}
+
+.Content {
+  width: 94%;
+  padding: 3%;
+}
+
+.Footer {
+  background-color: #222222;
+  height: auto;
+  padding: 3vw;
+}
+
+.NavBar {
+  background-color: #222222;
+}
+
+.AllProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+li {
+  list-style: none;
+}
+
+.ScrollButton {
+  align-self: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #222222;
+  border: none;
+  outline: none;
+}
+
+.Footer p {
+  font-size: 1rem;
+  color: #999999;
+}

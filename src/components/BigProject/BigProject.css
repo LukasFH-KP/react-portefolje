@@ -1,0 +1,67 @@
+:root {
+    --outline-color: #222222;
+    --outline-width: 1rem;
+    --project-color: #333333;
+}
+
+.BigProject {
+    width: 80vw;
+    height: 100%;
+    border-width: var(--outline-width);
+    border-style: solid;
+    border-color: var(--outline-color);
+    background-color: var(--project-color);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.BigProject .Thumbnail {
+    width: 50%;
+    margin: 0;
+}
+
+.BigProject h1 {
+    font-size: 4rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.BigProject hr {
+    height: var(--outline-width);
+    background-color: var(--outline-color);
+    border-width: 0;
+    margin: 0;
+}
+
+.BigProject .TitleBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BigProject .VR {
+    border-left: var(--outline-width) solid var(--outline-color);
+}
+
+.BigProject .ContentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.BigProject .DescriptionBox {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.LinkImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.ExternalLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+}

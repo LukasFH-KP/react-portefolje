@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "name": "Journey of the Robed",
+      "description": "Journey of the Robed is an action-RPG with a huge focus on boss combat and spells. In Journey of the Robed, you move around in an open world. However, when entering a fight, you are sent to a platform-style place where you fight bosses and smaller enemies with spells you choose yourself.",
+      "thumbnail_path": "Journey of the Robed.png",
+      "id": 0,
+      "external_links": [
+        {"url": "https://julerissen.itch.io/journey-of-the-robed", "type": "itch"},
+        {"url": "https://godotengine.org/", "type": "godot"},
+        {"url": "https://www.image-line.com/", "type": "fl_studio"},
+        {"url": "https://sfxr.me", "type": "jsfxr"},
+        {"url": "https://yal.cc/tools/pixel-font/", "type": "yal_pixel_font_converter"},
+        {"url": "https://www.aseprite.org/", "type": "aseprite"}
+      ]
+    },
+    {
+      "name": "Frozen Fury",
+      "description": "A game made by Julerissen for Bouvet. The game is about shooting mutant seals that aim to eat the penguins. You use a Sinden Lightgun to shoot, and you have 5 lives. The game has been used in places like Retro Messa and a few other places.",
+      "thumbnail_path": "Frozen Fury.png",
+      "id": 1,
+      "external_links": [
+        {"url": "https://godotengine.org/", "type": "godot"},
+        {"url": "https://www.adobe.com/no/products/photoshop.html?mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=CjwKCAjwi-DBBhA5EiwAXOHsGTxCHKfe8qv8ljk6SOSgLQIY1Sr_QMRK9AgJyRM0DUQw07HSwt1OLRoCnisQAvD_BwE:G:s&s_kwcid=AL!3085!3!748405299999!e!!g!!photoshop!22483729090!179440715678&gad_source=1&gad_campaignid=22483729090&gbraid=0AAAAADraYsJT7RaNKwVYGmZoBUKAKxDjM&gclid=CjwKCAjwi-DBBhA5EiwAXOHsGTxCHKfe8qv8ljk6SOSgLQIY1Sr_QMRK9AgJyRM0DUQw07HSwt1OLRoCnisQAvD_BwE", "type": "photoshop"}
+      ]
+    },
+    {
+      "name": "Rett i Sopla",
+      "description": "A game made by Julerissen for Bouvet. The game is about sorting different kinds of trash into the correct bins. You have 5 lives, and there is no way to regain them. The game has been used in places like Retro Messa and a few other places.",
+      "thumbnail_path": "Rett i Søpla.png",
+      "id": 2,
+      "external_links": [
+        {"url": "https://godotengine.org/", "type": "godot"}
+      ]
+    },
+    {
+      "name": "React Minesweeper",
+      "description": "Minesweeper made in React",
+      "thumbnail_path": "Minesweeper.png",
+      "id": 3,
+      "external_links": [
+        {"url": "https://react.dev/", "type": "react"},
+        {"url": "https://vite.dev/", "type": "vite"}
+      ]
+    },
+    {
+      "name": "Deer Girl Runner",
+      "description": "A platformer game made in the Godot Game Engine. A collab between me and Erik A. You control a girl called Nokotan on an adventure through the mountains. You collect shikasenbei and try and get to the goal as quick as possible without losing health.",
+      "thumbnail_path": "Deer Girl Runner.png",
+      "id": 4,
+      "external_links": [
+        {"url": "https://godotengine.org/", "type": "godot"},
+        {"url": "https://www.aseprite.org/", "type": "aseprite"},
+        {"url": "https://www.pixilart.com/", "type": "pixilart"}
+      ]
+    }
+  ],
+  "link_images": {
+    "godot": "/src/assets/link-images/godot.svg",
+    "itch": "/src/assets/link-images/itch.svg",
+    "fl_studio": "/src/assets/link-images/fl-studio.webp",
+    "jsfxr": "/src/assets/link-images/jsfxr.png",
+    "react": "/src/assets/link-images/react.svg",
+    "vite": "/src/assets/link-images/vite.svg",
+    "yal_pixel_font_converter": "/src/assets/link-images/yal.png",
+    "photoshop": "/src/assets/link-images/photoshop.svg",
+    "aseprite": "/src/assets/link-images/aseprite.svg",
+    "pixilart": "/src/assets/link-images/pixilart.png"
+  }
+}
