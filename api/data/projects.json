@@ -56,15 +56,15 @@
     }
   ],
   "link_images": {
-    "godot": "/link-images/godot.svg",
-    "itch": "/link-images/itch.svg",
-    "fl_studio": "/link-images/fl-studio.webp",
-    "jsfxr": "/link-images/jsfxr.png",
-    "react": "/link-images/react.svg",
-    "vite": "/link-images/vite.svg",
-    "yal_pixel_font_converter": "/link-images/yal.png",
-    "photoshop": "/link-images/photoshop.svg",
-    "aseprite": "/link-images/aseprite.svg",
-    "pixilart": "/link-images/pixilart.png"
+    "godot": "./link-images/godot.svg",
+    "itch": "./link-images/itch.svg",
+    "fl_studio": "./link-images/fl-studio.webp",
+    "jsfxr": "./link-images/jsfxr.png",
+    "react": "./link-images/react.svg",
+    "vite": "./link-images/vite.svg",
+    "yal_pixel_font_converter": "./link-images/yal.png",
+    "photoshop": "./link-images/photoshop.svg",
+    "aseprite": "./link-images/aseprite.svg",
+    "pixilart": "./link-images/pixilart.png"
   }
 }

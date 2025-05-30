@@ -15,7 +15,7 @@ const BigProject = ({ name, description, long_description, thumbnail_path, exter
             <hr/>
 
             <div className="ContentBox">
-                <img className="Thumbnail" src={"/" + thumbnail_path} alt=""/>
+                <img className="Thumbnail" src={"./" + thumbnail_path} alt=""/>
                 <div className="VR"/>
 
                 <div className="DescriptionBox">
