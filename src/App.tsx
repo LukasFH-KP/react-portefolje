@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.tsx";
 export default function App() {
   return (
     <>
-      <BrowserRouter basename="/react-portefolje">
+      <BrowserRouter basename="react-portefolje">
         <Routes>
           <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>

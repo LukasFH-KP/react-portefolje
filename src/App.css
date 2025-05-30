@@ -1,11 +1,11 @@
 @font-face {
   font-family: "JourneyOfTheRobed";
-  src: url("./assets/fonts/Game Font.ttf");
+  src: url("./public/fonts/Game Font.ttf");
 }
 
 @font-face {
   font-family: "JourneyOfTheRobedBigBold";
-  src: url("./assets/fonts/Big Font Bold.ttf");
+  src: url("./public/fonts/Big Font Bold.ttf");
 }
 
 html, body {

@@ -56,15 +56,15 @@
     }
   ],
   "link_images": {
-    "godot": "/src/assets/link-images/godot.svg",
-    "itch": "/src/assets/link-images/itch.svg",
-    "fl_studio": "/src/assets/link-images/fl-studio.webp",
-    "jsfxr": "/src/assets/link-images/jsfxr.png",
-    "react": "/src/assets/link-images/react.svg",
-    "vite": "/src/assets/link-images/vite.svg",
-    "yal_pixel_font_converter": "/src/assets/link-images/yal.png",
-    "photoshop": "/src/assets/link-images/photoshop.svg",
-    "aseprite": "/src/assets/link-images/aseprite.svg",
-    "pixilart": "/src/assets/link-images/pixilart.png"
+    "godot": "./public/link-images/godot.svg",
+    "itch": "./public/link-images/itch.svg",
+    "fl_studio": "./public/link-images/fl-studio.webp",
+    "jsfxr": "./public/link-images/jsfxr.png",
+    "react": "./public/link-images/react.svg",
+    "vite": "./public/link-images/vite.svg",
+    "yal_pixel_font_converter": "./public/link-images/yal.png",
+    "photoshop": "./public/link-images/photoshop.svg",
+    "aseprite": "./public/link-images/aseprite.svg",
+    "pixilart": "./public/link-images/pixilart.png"
   }
 }
