@@ -118,6 +118,7 @@ p {
 }
 
 .Content {
+  min-height: 80vh;
   width: 94%;
   padding: 3%;
 }
@@ -188,7 +189,11 @@ li {
     font-size: .5rem;
   }
 
-  .Footer {
-    position: absolute;
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1rem;
   }
 }

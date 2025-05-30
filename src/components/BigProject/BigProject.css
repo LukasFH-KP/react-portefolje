@@ -65,3 +65,24 @@
     gap: 1rem;
     padding: 1rem;
 }
+
+@media (max-width: 1000px) {
+    .BigProject h1 {
+        font-size: 2rem;
+    }
+
+    .BigProject .DescriptionBox {
+        padding: 1rem;
+        font-size: .75rem;
+    }
+
+    .LinkImage {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .ExternalLinks {
+        gap: .5rem;
+        padding: .5rem;
+    }
+}
