@@ -35,7 +35,7 @@ html, body {
 }
 
 .Project .ContentBox {
-  width: 100vw;
+  width: 50%;
 }
 
 .Project .VR {
@@ -67,12 +67,17 @@ html, body {
   width: auto;
   padding: 3vw;
   overflow: hidden;
+  margin: 0;
 }
 
 .NavBar .ContentBox {
-  width: 100vw;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 0;
 }
 
@@ -80,10 +85,17 @@ html, body {
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   font-family: JourneyOfTheRobedBigBold, serif;
   line-height: normal;
+}
+
+h1 {
   font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 p {
@@ -91,7 +103,16 @@ p {
 
 }
 
+.NavBarContainer {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
 .NavBarHeader {
+  color: white;
   font-size: 2rem;
   font-family: JourneyOfTheRobedBigBold, serif;
 }
@@ -105,9 +126,12 @@ p {
   background-color: #222222;
   height: auto;
   padding: 3vw;
+  bottom: 0;
+  width: 100%;
 }
 
 .NavBar {
+  width: 100%;
   background-color: #222222;
 }
 
@@ -136,4 +160,35 @@ li {
 .Footer p {
   font-size: 1rem;
   color: #999999;
+}
+
+@media (max-width: 1000px) {
+  .NavBarHeader {
+    font-size: .8rem;
+  }
+
+  .ScrollButton {
+    width: 3rem;
+    height: 3rem;
+    font-size: .8rem;
+  }
+
+  .Projects {
+    gap: 3rem;
+  }
+
+  .Project {
+    border-radius: 1rem;
+    font-size: .27rem;
+    width: 50vw;
+    height: 20vh;
+  }
+
+  .Project h2 {
+    font-size: .5rem;
+  }
+
+  .Footer {
+    position: absolute;
+  }
 }

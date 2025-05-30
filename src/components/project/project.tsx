@@ -18,7 +18,7 @@ const Project = ({ name, description, thumbnail_path, id, animation }: ProjectPr
             <img src={"../src/assets/" + thumbnail_path} alt=""/>
             <div className="VR"></div>
             <div className="ContentBox">
-                <h1>{name}</h1>
+                <h2>{name}</h2>
                 <hr/>
 
                 <div className="DescriptionBox">
