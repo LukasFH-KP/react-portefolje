@@ -10,8 +10,8 @@ const ProjectCollection = ({ items, ...props }: ProjectCollectionProps) => {
     const [animation, setAnimation] = useState<object[]>([]);
 
     function scroll(direction: number) {
-        const newIndex = (currentIndex + direction + items.length) % items.length;
-        setAnimation([{ x: direction * -100 }, { x: 0 }])
+        const newIndex = (currentIndex + direction + items.length) % items.length; // Calculates the index of the next project that will be scrolled to
+        setAnimation([{ x: direction * -100 }, { x: 0 }]) // Initializes the animation
 
         setCurrentIndex(newIndex);
     }

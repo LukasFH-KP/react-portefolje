@@ -9,6 +9,7 @@ const Projects = () => {
 
     useEffect(() => {
         if (search.get("p") !== null) {
+            // If a project is specified in the URL, it will scroll to said project
             document.getElementById(search.get("p"))?.scrollIntoView({behavior: "smooth"})
         }
     }, [search])

@@ -4,6 +4,7 @@ import projects from "../../../api/data/projects.json";
 
 
 const BigProject = ({ name, description, long_description, thumbnail_path, external_links, id, ...props }: ProjectProps) => {
+    // Makes the "description" property the default if no "long_description" is specified
     long_description = long_description ? long_description : description
 
     return (
